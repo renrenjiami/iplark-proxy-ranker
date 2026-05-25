@@ -1,0 +1,15 @@
+{
+  "name": "iplark-proxy-ranker",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Local IPLark proxy purity checker with CLI and WebUI.",
+  "scripts": {
+    "start": "node iplark-webui.mjs",
+    "check": "node --check iplark-checker.mjs && node --check iplark-webui.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
